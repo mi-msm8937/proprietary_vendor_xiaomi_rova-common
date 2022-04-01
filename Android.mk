@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter riva rolex,$(TARGET_DEVICE)),)
+ifneq ($(filter riva rolex rova,$(TARGET_DEVICE)),)
 
 endif
